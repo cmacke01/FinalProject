@@ -1,0 +1,131 @@
+img {
+  position: absolute;
+  float: left;
+  margin-top: -10px;
+}
+
+h1 {
+    position: relative;
+    margin-left: 110px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+
+}
+
+
+.blue {
+  width: 92%;
+  margin-left: 4%;
+  margin-right: 4%;
+  background: rgb(166,233,255);
+  background: radial-gradient(circle, rgba(166,233,255,1) 0%, rgba(39,121,255,1) 100%);
+  height: 550px;
+  position: relative;
+  margin-top: 70px;
+}
+
+.blue2 {
+  width: 92%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 4%;
+  background: rgb(166,233,255);
+  background: radial-gradient(circle, rgba(166,233,255,1) 0%, rgba(39,121,255,1) 100%);
+  height: 650px;
+  position: relative;
+  margin-top: 70px;
+  z-index: -1;
+  border-radius: 5px;
+  font-family: 'Roboto';
+}
+
+.question {
+  position: absolute;
+  text-align: center;
+  width: 92%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 2%;
+  background-color: #fff5f2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.left{
+  position: absolute;
+  float: left;
+  margin-left: 4%;
+  margin-top: 10%;
+  background-color: #fff5f2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 42%;
+  height: 70%;
+}
+.right{
+  position: absolute;
+  margin-left: 52%;
+  margin-top: 10%;
+  background-color: #fff5f2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 42%;
+  height: 70%;
+}
+
+
+button {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #fff5f2;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  font-size: 30px;
+  box-shadow: 5px 5px #999;
+
+}
+
+button:hover {
+  /* background-color: #e3dad8; */
+  box-shadow: 9px 9px #666;
+  cursor: pointer;
+
+}
+
+button:active {
+  position: absolute;
+  top: 51%;
+  left: 51%;
+  -ms-transform: translate(-51%, -51%);
+  transform: translate(-51%, -51%);
+  /* background-color: #e3dad8; */
+  box-shadow: 3px 5px #666;
+}
+
+
+p {
+  border-radius: 5px;
+  font-family: 'Roboto';
+}
+
+.descr {
+  margin-top: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
